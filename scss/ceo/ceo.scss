@@ -1,0 +1,78 @@
+.seo-messages-container {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    @media (max-width: 990px) {
+        grid-template-columns: 1fr;
+    }
+    .title-xsm {
+        margin-bottom: 10px;
+        color: #333;
+        font: 900 1.5rem 'Lato', sans-serif;
+        @media (max-width: 990px) {
+            font-size: 1.2rem;
+        }
+    }
+    .signature-box {
+        .signature-text {
+            color: #333;
+            margin-bottom: 20px;
+            font: 900 1rem 'Lato', sans-serif;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.seo-lozung {
+    background: url(../img/about/about.jpg) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    .container {
+        height: 100%;
+    }
+    .seo-lozung-box {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p {
+            text-align: center;
+            color: #fff;
+        }
+    }
+}
+
+
+ 
+.acc-head {
+	padding:15px;
+    cursor: pointer;
+    border: 1px solid #c0c0c0;
+    margin-bottom: 10px;
+    font: 500 1.2rem 'Rubik', sans-serif;
+    color: #000;
+    position: relative;
+    &::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f107";
+        font-weight: 900;
+        position: absolute;
+        right: 20px;
+        top: 30%;
+        transition: .3s;
+    }
+}
+ 
+.acc-body {
+	padding: 10px;
+    display: none;
+    margin-bottom: 10px;
+    font: 500 1rem 'Rubik', sans-serif;
+}

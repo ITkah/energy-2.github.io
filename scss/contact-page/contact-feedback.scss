@@ -1,0 +1,138 @@
+.contact-title-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    .sub-title {
+        color: #ff5860;
+        font: 500 1rem 'Rubik', sans-serif;
+    }
+}
+
+.contact-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    @media (max-width: 990px) {
+        grid-template-columns: 1fr;
+    }
+    .contact-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 80px 50px;
+        box-shadow: 0px 12px 39px 0px rgba(8, 18, 109, 0.08);
+        @media (max-width: 990px) {
+            padding: 40px;
+        }
+    }
+    i {
+        font-size: 50px;
+        margin-bottom: 25px;
+        color: #ff5860;
+    }
+    .contact-title {
+        font: 800 1.75rem 'Rubik', sans-serif;
+        color: #333;
+        margin-bottom: 20px;
+        @media (max-width: 990px) {
+            font-size: 1.5rem;
+        }
+    }
+    .contact-link {
+        font: 500 1.125rem 'Rubik', sans-serif;
+        color: #848484;
+        text-align: center;
+        height: 40px;
+        @media (max-width: 990px) {
+            font-size: 1.1rem;
+            height: auto;
+        }
+    }
+}
+
+.map-feedback {
+    iframe {
+        width: 100%;
+        height: 100%;
+        @media (max-width: 990px) {
+            height: 350px;
+        }
+    }
+}
+
+.map-feedback-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media (max-width: 990px) {
+        grid-template-columns: 1fr;
+    }
+    .form-box {
+        padding: 50px 40px;
+        display: flex;
+        flex-direction: column;
+        background: #21bcd8;
+        @media (max-width: 990px) {
+            padding: 30px 20px;
+        }
+    }
+    .form-title {
+        color: #fff;
+        font: 500 2rem 'Rubik', sans-serif;
+        margin-bottom: 35px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        input {
+            padding: 15px;
+            border: none;
+            outline: none;
+        }
+        .input-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 15px;
+            margin-bottom: 15px;
+            @media (max-width: 990px) {
+                grid-template-columns: 1fr;
+            }
+        }
+        textarea{
+            height: 150px;
+            padding: 15px;
+            border: none;
+            outline: none;
+        }
+        button {
+            border: none;
+            margin-top: 15px;
+            width: 150px;
+            padding: 10px 15px;
+            @media (max-width: 990px) {
+                width: 100%;
+            }
+            &::after {
+                display: none;
+            }
+        }
+    }
+}
+
+input::-webkit-input-placeholder { 
+    font: 400 1rem 'Rubik', sans-serif;
+}
+input::-moz-placeholder { 
+    font: 400 1rem 'Rubik', sans-serif;
+}
+
+
+textarea::-webkit-input-placeholder { 
+    font: 400 1rem 'Rubik', sans-serif;
+}
+
+textarea::-moz-placeholder { 
+    font: 400 1rem 'Rubik', sans-serif;
+}

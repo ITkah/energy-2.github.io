@@ -1,0 +1,17 @@
+.title-sm {
+    font: 800 2.25rem 'Rubik', sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+    @media (max-width: 990px) {
+        font-size: 2rem;
+    }
+}
+
+.text-simple {
+    color: #333;
+    font: 400 1rem/24px 'Rubik', sans-serif;
+    margin-bottom: 15px;
+    @media (max-width: 990px) {
+        font-size: .9rem;
+    }
+}

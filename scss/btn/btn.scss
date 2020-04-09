@@ -1,0 +1,31 @@
+.btn-red {
+    font: 700 1.1rem 'Rubik', sans-serif;
+    background: #ff5860;
+    color: #fff;
+    padding: 15px 40px 15px 20px;
+    transition: .3s;
+    display: inline-block;
+    text-transform: capitalize;
+    position: relative;
+    &::after {
+        content: '\f30b';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        position: absolute;
+        right: 10px;
+        top: 32%;
+        transition: .3s;
+        color: #fff;
+    }
+    @media (max-width: 990px) {
+        font-size: 1rem;
+        padding: 10px 35px;
+    }
+    &:hover {
+        color: #fff;
+        background: #c23d43;
+        &::after {
+            right: 15px;
+        }
+    }
+}

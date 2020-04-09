@@ -1,0 +1,115 @@
+.news {
+    padding: 60px 0;
+    .title-sm {
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 30px;
+        @media (max-width: 576px) {
+            font-size: 1.5rem;
+        }
+    }
+    .team-sub-title {
+        text-align: center;
+        color: #ff5860;
+        margin-bottom: 10px;
+    }
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    @media (max-width: 990px) {
+        grid-template-columns: 1fr;
+    }
+    .news-box {
+        &:hover {
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
+    .news-img-box {
+        overflow: hidden;
+        margin-bottom: 15px;
+        height: 250px;
+        @media (max-width: 990px) {
+            height: auto;
+        }
+    }
+    img {
+        max-width: 100%;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: .3s;
+    }
+    .data {
+        margin-bottom: 10px;
+        color: #848484;
+        font: 400 .87rem 'Rubik', sans-serif;
+    }
+    .title-sm {
+        text-align: left;
+        font-size: 1.5rem;
+        @media (max-width: 990px) {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+
+.blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    @media (max-width: 990px) {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+}
+
+.blog-box {
+    img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .blog-data {
+        color: #848484;
+        font: 500 .87rem 'Rubik', sans-serif;
+        margin-bottom: 10px;
+    }
+    .blog-title {
+        font: 800 1.75rem/35px 'Rubik', sans-serif;
+        color: #333;
+        margin-bottom: 10px;
+        @media (max-width: 990px) {
+            font-size: 1.4rem;
+            line-height: 30px;
+        }
+    }
+    .text-simple {
+        font: normal 1rem/24px 'Rubik', sans-serif;
+        color: #333;
+        margin-bottom: 15px;
+    }
+    a {
+        padding: 12px 25px;
+        width: 120px;
+        text-align: center;
+        &::after {
+            display: none;
+        }
+    }
+}
+
+.blog-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    @media (max-width: 990px) {
+        grid-template-columns: 1fr;
+    }
+}
