@@ -17,6 +17,11 @@ $(document).ready(function() {
         $(this).next().slideToggle(500);
     }
 
+    $(".why .acc-head").on("click", function(){
+      $(".why .acc-head").removeClass("acc-minus");
+      $(this).addClass("acc-minus");
+    });
+
     $('#accordeon .acc-head').on('click', f_acc);
     
     $('.team-slider').slick({

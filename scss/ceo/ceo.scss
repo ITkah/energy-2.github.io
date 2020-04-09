@@ -1,7 +1,7 @@
 .seo-messages-container {
     display: grid;
     grid-gap: 40px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
     @media (max-width: 990px) {
         grid-template-columns: 1fr;
     }
@@ -27,6 +27,31 @@
         max-width: 100%;
         height: auto;
     }
+    .acc-head {
+        padding:15px;
+        cursor: pointer;
+        border: 1px solid #c0c0c0;
+        margin-bottom: 10px;
+        font: 500 1.2rem 'Rubik', sans-serif;
+        color: #000;
+        position: relative;
+        &::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f107";
+            font-weight: 900;
+            position: absolute;
+            right: 20px;
+            top: 30%;
+            transition: .3s;
+        }
+    }
+     
+    .acc-body {
+        padding: 10px;
+        display: none;
+        margin-bottom: 10px;
+        font: 500 1rem 'Rubik', sans-serif;
+    }
 }
 
 .seo-lozung {
@@ -49,30 +74,3 @@
     }
 }
 
-
- 
-.acc-head {
-	padding:15px;
-    cursor: pointer;
-    border: 1px solid #c0c0c0;
-    margin-bottom: 10px;
-    font: 500 1.2rem 'Rubik', sans-serif;
-    color: #000;
-    position: relative;
-    &::before {
-        font-family: "Font Awesome 5 Free";
-        content: "\f107";
-        font-weight: 900;
-        position: absolute;
-        right: 20px;
-        top: 30%;
-        transition: .3s;
-    }
-}
- 
-.acc-body {
-	padding: 10px;
-    display: none;
-    margin-bottom: 10px;
-    font: 500 1rem 'Rubik', sans-serif;
-}

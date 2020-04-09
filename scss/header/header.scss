@@ -173,23 +173,6 @@ nav {
                 }
             }
         }
-        li:nth-child(2) {
-            position: relative;
-            &::after {
-                font-family: "Font Awesome 5 Free";
-                content: "\f107";
-                font-weight: 900;
-                position: absolute;
-                right: 2px;
-                top: 3px;
-                transition: .3s;
-            }
-            &:hover {
-                &::after {
-                    color: #ff6c73;
-                }
-            }
-        }
         li:nth-child(3) {
             position: relative;
             &::after {
