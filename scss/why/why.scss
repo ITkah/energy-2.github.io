@@ -16,10 +16,11 @@
         grid-gap: 25px;
         grid-template-columns: 1fr;
     }
-    .text-simple, .title-sm {
+    .text-simple,
+    .title-sm {
         color: #fff;
     }
-    .title-sm  {
+    .title-sm {
         font-size: 1.75rem;
         font-weight: 600;
         margin-bottom: 10px;
@@ -28,41 +29,38 @@
         opacity: .8;
     }
     .acc-head {
-        padding:15px 0;
+        padding: 15px 20px;
         cursor: pointer;
-        margin-bottom: 0;
+        border: 1px solid #fff;
+        margin-bottom: 10px;
         font: 500 1.2rem 'Rubik', sans-serif;
         color: #fff;
         position: relative;
-        padding-left: 30px;
-        &::after {
+        transition: .3s;
+        &::before {
             font-family: "Font Awesome 5 Free";
-            content: "\f067";
+            content: "\f107";
             font-weight: 900;
             position: absolute;
-            left: 0;
-            top: 15px;
+            right: 20px;
+            top: 25%;
+            color: #000;
             transition: .3s;
-        }
-    }
-    .acc-minus {
-        &::after {
-            font-family: "Font Awesome 5 Free";
-            content: "\f068";
-            font-weight: 900;
-            position: absolute;
-            left: 0;
-            top: 15px;
-            transition: .3s;
+            background: rgba(255, 255, 255, .8);
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
     .acc-body {
-        padding: 10px 0;
+        padding: 10px;
         display: none;
         color: #fff;
-        opacity: .8;
         margin-bottom: 10px;
-        font: 500 1rem 'Rubik', sans-serif;
+        font: 500 1rem/25px 'Rubik', sans-serif;
     }
 }
 
@@ -94,15 +92,15 @@
 
 .why-info-img {
     @media (max-width: 990px) {
-       display: flex;
-       align-items: center;
-       justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     img {
         max-width: 100%;
         height: auto;
         position: relative;
-        bottom: -80px;
+        bottom: -60px;
         @media (max-width: 990px) {
             bottom: 0;
         }
@@ -124,49 +122,5 @@
     margin-bottom: 25px;
     @media (max-width: 990px) {
         font-size: 1rem;
-    }
-}
-
-
-.main-acc-wrap {
-    .acc-head {
-        padding:15px 20px;
-        cursor: pointer;
-        border: 1px solid #16172e;
-        margin-bottom: 10px;
-        font: 500 1.2rem 'Rubik', sans-serif;
-        color: #000;
-        position: relative;
-        transition: .3s;
-        &:hover {
-            color: #ff5860;
-            border: 1px solid #ff5860;
-            &::before {
-                color: #ff5860;
-            } 
-        }
-        &::before {
-            font-family: "Font Awesome 5 Free";
-            content: "\f107";
-            font-weight: 900;
-            position: absolute;
-            right: 20px;
-            top: 24%;
-            transition: .3s;
-            background: #f3f4f7;
-            height: 25px;
-            width: 25px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    }
-     
-    .acc-body {
-        padding: 10px;
-        display: none;
-        margin-bottom: 10px;
-        font: 500 1rem/25px 'Rubik', sans-serif;
     }
 }
