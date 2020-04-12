@@ -20,7 +20,7 @@ $(document).ready(function() {
     $('#accordeon .acc-head').on('click', f_acc);
 
     $('.team-slider').slick({
-        dots: true,
+        dots: false,
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 3,

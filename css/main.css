@@ -118,11 +118,6 @@ header {
       padding: 0; } }
   .fixed-header nav ul li a {
     color: #222222; }
-  .fixed-header .sub-menu {
-    background: #fff; }
-    @media (max-width: 990px) {
-      .fixed-header .sub-menu a {
-        color: #222222; } }
 
 .menu-btn {
   display: none;
@@ -160,46 +155,6 @@ nav ul li {
   position: relative; }
   nav ul li:hover .sub-menu {
     display: block; }
-
-nav ul li:nth-child(3) {
-  position: relative; }
-  nav ul li:nth-child(3)::after {
-    font-family: "Font Awesome 5 Free";
-    content: "\f107";
-    font-weight: 900;
-    position: absolute;
-    right: 2px;
-    top: 2px; }
-  nav ul li:nth-child(3):hover::after {
-    color: #ff6c73; }
-
-.sub-menu {
-  display: none;
-  position: absolute;
-  top: 32px;
-  left: 15px;
-  padding: 0 15px;
-  text-align: left;
-  width: 100%;
-  background: #fff; }
-  @media (max-width: 990px) {
-    .sub-menu {
-      position: relative;
-      top: 0;
-      bottom: -10px;
-      margin-bottom: -15px;
-      display: block;
-      padding: 0;
-      left: 10px; } }
-  .sub-menu li {
-    display: block;
-    margin: 10px 0; }
-    .sub-menu li a {
-      padding: 0; }
-  .sub-menu li:nth-child(2)::after {
-    display: none; }
-  .sub-menu li:nth-child(3)::after {
-    display: none; }
 
 .white-popup-block {
   position: relative;
