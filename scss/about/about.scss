@@ -7,13 +7,11 @@
 //         grid-gap: 15px;
 //     }
 // }
-
 // .who-about {
 //     .text-simple {
 //         margin: 0;
 //     }
 // }
-
 // .who-box-info {
 //     .title-sm {
 //         margin-bottom: 20px;
@@ -24,7 +22,6 @@
 //         margin-bottom: 20px;
 //     }
 // }
-
 // .who-punkt-wrap {
 //     display: grid;
 //     grid-template-columns: 1fr 1fr;
@@ -40,7 +37,6 @@
 //         font: 900 1.125rem 'Lato', sans-serif;
 //     }
 // }
-
 // .company-history {
 //     display: grid;
 //     grid-template-columns: 1fr 1fr;
@@ -76,7 +72,6 @@
 //         }
 //     }
 // }
-
 // .who-num-wrap {
 //     display: grid;
 //     grid-template-columns: 1fr 1fr 1fr;
@@ -93,7 +88,6 @@
 //         grid-gap: 20px;
 //     }
 // }
-
 // .who-num-box {
 //     display: flex;
 //     flex-direction: column;
@@ -120,7 +114,6 @@
 //         font: 400 .95rem 'Lato', sans-serif;
 //     }
 // }
-
 // .team-info {
 //     margin-top: 60px;
 //     padding-top: 60px;
@@ -149,7 +142,6 @@
 //         margin-bottom: 20px;
 //     }
 // }
-
 // .team-wrap {
 //     display: grid;
 //     grid-template-columns: 1fr 1fr 1fr;
@@ -189,7 +181,6 @@
 //         }
 //     }
 // }
-
 .about-container {
     display: grid;
     grid-template-columns: 5fr 6fr;
@@ -208,7 +199,7 @@
     }
     .about-sub-title {
         text-transform: uppercase;
-        color: #ff5860;
+        color: #234f9a;
         font: 300 1.1rem 'Rubik', sans-serif;
         margin-bottom: 20px;
         @media (max-width: 990px) {
@@ -222,7 +213,7 @@
             margin-bottom: 20px;
         }
         span {
-            color: #ff5860;  
+            color: #234f9a;
         }
     }
     .text-simple {
@@ -250,8 +241,8 @@
             font: 300 1rem 'Rubik', sans-serif;
         }
         .num {
-            color: #ff5860;  
-            font: bold 3rem 'Rubik', sans-serif; 
+            color: #234f9a;
+            font: bold 3rem 'Rubik', sans-serif;
             @media (max-width: 990px) {
                 font-size: 2rem;
             }

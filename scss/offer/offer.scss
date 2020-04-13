@@ -6,6 +6,7 @@
         margin-bottom: 20px;
     }
 }
+
 .offer-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -27,7 +28,7 @@
         i {
             font-size: 50px;
             margin-bottom: 25px;
-            color: #ff6c73;
+            color: #234f9a;
         }
         .title-sm {
             font-size: 1.5rem;
@@ -40,7 +41,7 @@
         }
     }
     .offer-box-sm {
-        background: #21bcd8;
+        background: #9a9899;
         box-shadow: 0px 12px 39px 0px rgba(8, 18, 109, 0.08);
         display: flex;
         flex-direction: column;

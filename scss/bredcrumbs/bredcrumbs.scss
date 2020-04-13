@@ -6,7 +6,7 @@
     position: relative;
     &::before {
         content: '';
-        background: rgba(0,0,0,.7);
+        background: rgba(0, 0, 0, .7);
         height: 100%;
         width: 100%;
         left: 0;
@@ -41,12 +41,13 @@
     .bredcrumbs-wrap {
         position: relative;
         z-index: 9;
-        a,span {
+        a,
+        span {
             color: #fff;
             font: 400 1rem 'Rubik', sans-serif;
         }
         span {
-            color: #ff5860;
+            color: #6e92d1;
         }
         a {
             padding-right: 5px;

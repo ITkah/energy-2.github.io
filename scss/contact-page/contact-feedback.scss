@@ -5,7 +5,7 @@
     justify-content: center;
     margin-bottom: 30px;
     .sub-title {
-        color: #ff5860;
+        color: #234f9a;
         font: 500 1rem 'Rubik', sans-serif;
     }
 }
@@ -31,7 +31,7 @@
     i {
         font-size: 50px;
         margin-bottom: 25px;
-        color: #ff5860;
+        color: #234f9a;
     }
     .contact-title {
         font: 800 1.75rem 'Rubik', sans-serif;
@@ -73,7 +73,7 @@
         padding: 50px 40px;
         display: flex;
         flex-direction: column;
-        background: #21bcd8;
+        background: #9a9899;
         @media (max-width: 990px) {
             padding: 30px 20px;
         }
@@ -100,7 +100,7 @@
                 grid-template-columns: 1fr;
             }
         }
-        textarea{
+        textarea {
             height: 150px;
             padding: 15px;
             border: none;
@@ -121,18 +121,18 @@
     }
 }
 
-input::-webkit-input-placeholder { 
-    font: 400 1rem 'Rubik', sans-serif;
-}
-input::-moz-placeholder { 
+input::-webkit-input-placeholder {
     font: 400 1rem 'Rubik', sans-serif;
 }
 
-
-textarea::-webkit-input-placeholder { 
+input::-moz-placeholder {
     font: 400 1rem 'Rubik', sans-serif;
 }
 
-textarea::-moz-placeholder { 
+textarea::-webkit-input-placeholder {
+    font: 400 1rem 'Rubik', sans-serif;
+}
+
+textarea::-moz-placeholder {
     font: 400 1rem 'Rubik', sans-serif;
 }

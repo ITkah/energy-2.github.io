@@ -48,7 +48,7 @@ header {
                     padding: 15px 20px;
                     font: 500 1rem 'Rubik', sans-serif;
                     &:hover {
-                        color: #ff6c73;
+                        color: #234f9a;
                     }
                     @media (max-width: 1024px) {
                         padding: 15px;
@@ -86,7 +86,7 @@ nav {
 }
 
 .logo-white {
-    height: 55px;
+    height: 50px;
     @media (max-width: 990px) {
         height: 40px;
     }
@@ -221,4 +221,27 @@ nav {
     .dropdown-menu {
         display: block;
     }
+}
+
+.white-popup-block {
+    position: relative;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    border-right: 5px;
+    text-align: center;
+    min-height: 200px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
