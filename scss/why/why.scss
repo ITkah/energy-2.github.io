@@ -91,18 +91,22 @@
 }
 
 .why-info-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     @media (max-width: 990px) {
         display: flex;
         align-items: center;
         justify-content: center;
     }
     img {
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
         position: relative;
         bottom: -60px;
         @media (max-width: 990px) {
             bottom: 0;
+            max-width: 100%;
         }
     }
 }

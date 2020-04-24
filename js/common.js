@@ -1,5 +1,41 @@
 $(document).ready(function() {
 
+    $('.brand-slider').slick({
+        dots: false,
+        arrows: false,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    dots: true
+                }
+            }
+        ]
+    });
+
     $(".menu-btn").on("click", function() {
         $("nav").slideToggle(200);
     });
@@ -41,6 +77,9 @@ $(document).ready(function() {
         return false;
     });
 
+    $('#accordeon .acc-head').on('click', f_acc);
+
+
     $('.popup-with-form').magnificPopup({
         type: 'inline',
         preloader: false,
@@ -58,9 +97,6 @@ $(document).ready(function() {
             }
         }
     });
-
-
-    $('#accordeon .acc-head').on('click', f_acc);
 
     $('.team-slider').slick({
         dots: false,
@@ -93,6 +129,7 @@ $(document).ready(function() {
             }
         ]
     });
+
 
     $('.blog-slider').slick({
         dots: true,
